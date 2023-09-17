@@ -16,7 +16,7 @@
 В качестве метрики оценки результата используется IoU (Intersection over Union)
 Вычисление метрики выполняется последовательно для каждого изображения в файле `metric_evaluation.py` в функции `evaluate_iou()`
 
-![image_2023-09-17_20-47-39](https://github.com/DimaKurd/lab1_cv/assets/43163344/f61bab54-09c3-43ce-8a45-e17bf3f62487)
+![image_2023-09-17_20-47-39](https://learnopencv.com/wp-content/uploads/2022/12/feature-image-iou-1-1024x292.jpg)
 
 
 ## Baseline
