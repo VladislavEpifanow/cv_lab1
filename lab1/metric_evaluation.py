@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 import pandas as pd
 
-from .solution_example import get_foreground_mask
+from solution_example import get_foreground_mask
 
 
 def evaluate_iou(image_dir: str, anno_dir: str) -> float:
@@ -47,7 +47,7 @@ def evaluate_iou(image_dir: str, anno_dir: str) -> float:
             iou_values.append(iou)
             iou_data['iou_values'] = iou_values
 
-        pd.DataFrame(data=iou_data).to_csv('./lab1/detailed_results.csv')
+        pd.DataFrame(data=iou_data).to_csv('../lab1/detailed_results.csv')
         return np.mean(iou_data['iou_values'])
 
 
